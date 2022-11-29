@@ -1,0 +1,112 @@
+.services
+  padding-top:300px
+  padding-bottom: 100px
+  // .services__block
+  &__block
+  // .services__title-block
+  &__title-block
+    display: flex
+    align-items: center
+    margin-bottom: 50px
+  // .services__title
+  &__title
+    font-weight: 400
+    font-size: 36px
+    line-height: 53px
+    text-transform: uppercase
+    color: $firm
+
+  // .services__title-line
+  &__title-line
+    height: 3px
+    background-color: $firm
+    width: 80px
+    margin-left: 20px
+  // .services__content-block
+  &__content-block
+    display: flex
+  // .services__button
+  &__button
+    &:hover
+      border: 1px solid $firm
+
+.service-content
+  // .service-content__text-block
+  &__text-block
+    max-width: 505px
+    margin-right: 100px
+  // .service-content__paragraph
+  &__paragraph
+    margin-bottom: 70px
+  // .service-content__title
+  &__title
+    font-weight: 300
+    font-size: 18px
+    line-height: 27px
+    color: $accent
+  // .service-content__text
+  &__text
+    margin-top: 12px
+    font-weight: 300
+    font-size: 18px
+    line-height: 27px
+    color: $black
+  // .service-content__steps-block
+  &__steps-block
+
+  // .service-content__step
+  &__step
+    width: 450px
+    height: 75px
+    display: flex
+    align-items: center
+    border: 1px solid $grey
+    padding: 20px
+    margin-bottom: 12px
+    transition: all 500ms ease
+    &:hover
+      transition: all 500ms ease
+      border: 1px solid $accent
+      width: 500px
+      .step-block__number
+        transition: all 500ms ease
+        color: $accent
+      .step-block__title
+        transition: all 500ms ease
+        color: $accent
+      .step-block__subtitle
+        transition: all 500ms ease
+        color: #000
+
+.step-block
+  // .step-block__number-block
+  &__number-block
+    margin-right: 40px
+  // .step-block__number
+  &__number
+    transition: all 500ms ease
+    display: inline-block
+    font-weight: 400
+    font-size: 36px
+    line-height: 53px
+    text-transform: uppercase
+    transform: rotate(270deg)
+    color: $grey
+
+  // .step-block__content-block
+  &__content-block
+
+  // .step-block__title
+  &__title
+    transition: all 500ms ease
+    font-weight: 300
+    font-size: 24px
+    line-height: 36px
+    color: $black
+  // .step-block__subtitle
+  &__subtitle
+    transition: all 500ms ease
+    font-weight: 300
+    font-size: 18px
+    line-height: 27px
+    color: $black
