@@ -1,0 +1,92 @@
+.autos
+  // .autos__block
+  &__block
+    padding-bottom: 100px
+  // .autos__title-block
+  &__title-block
+    display: flex
+    align-items: center
+    margin-bottom: 50px
+  // .autos__title
+  &__title
+    font-weight: 400
+    font-size: 36px
+    line-height: 53px
+    text-transform: uppercase
+    color: $firm
+    margin-right: 20px
+  // .autos__title-line
+  &__title-line
+    background-color: $firm
+    height: 3px
+    width: 80px
+  // .autos__slider
+  &__slider
+    display: flex
+    flex-flow: column
+    align-items: center
+
+
+.auto-slider
+  // .auto-slider__wrapper
+  &__wrapper
+    display: flex
+    justify-content: space-between
+    align-self: stretch
+  // .auto-slider__item
+  &__item
+    width: 390px
+    height: 350px
+    display: flex
+    flex-flow: column
+    align-items: center
+    border: 1px solid $grey
+    transition: all 500ms ease
+    &:hover
+      transition: all 500ms ease
+      border: 1px solid $accent
+      background-color: $accent
+      .auto-slider__title, .auto-slider__subtitle
+        transition: all 500ms ease
+        color: $light
+  // .auto-slider__img
+  &__img
+  // .auto-slider__img-block
+  &__img-block
+    padding-top: 5px
+  // .auto-slider__title
+  &__title
+    font-weight: 300
+    font-size: 18px
+    line-height: 27px
+    color: $black
+    margin-top: 25px
+    margin-bottom: 5px
+    transition: all 500ms ease
+  // .auto-slider__subtitle
+  &__subtitle
+    font-weight: 300
+    font-size: 18px
+    line-height: 27px
+    color: $black
+    transition: all 500ms ease
+  // .auto-slider__pagination
+  &__pagination
+    margin-top: 50px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 400px
+  // .auto-slider__pagination-line
+  &__pagination-line
+    width: 50px
+    height: 1px
+    background-color: $grey
+    // .auto-slider__pagination-line_checked
+    &_checked
+      width: 50px
+      height: 3px
+      background-color: $accent
+
+
+

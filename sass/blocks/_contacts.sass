@@ -1,0 +1,109 @@
+.contacts
+  // .contacts__block
+  &__block
+    display: flex
+
+  // .contacts__contact-block
+  &__contact-block
+    width: 50%
+  // .contacts__form-block
+  &__form-block
+    background-color: $firm
+    width: 50%
+
+
+.contact-block
+  // .contact-block__title-block
+  &__title-block
+    margin-top: 50px
+    margin-bottom: 50px
+    display: flex
+    align-items: center
+  // .contact-block__title
+  &__title
+    font-weight: 400
+    font-size: 36px
+    line-height: 53px
+    text-transform: uppercase
+    margin-right: 5px
+    color: $firm
+  // .contact-block__title-line
+  &__title-line
+    width: 80px
+    height: 3px
+    background-color: $firm
+  // .contact-block__info
+  &__info
+    font-weight: 300
+    font-size: 18px
+    line-height: 27px
+    color: $black
+    margin-bottom: 20px
+    // .contact-block__info_accent
+    &_accent
+      color: $accent
+
+
+.form-block
+  // .form-block__title-block
+  &__title-block
+    margin-top: 50px
+    margin-left: 128px
+    margin-bottom: 16px
+    display: flex
+    align-items: center
+  // .form-block__title
+  &__title
+    font-weight: 400
+    font-size: 36px
+    line-height: 53px
+    text-transform: uppercase
+    color: $light
+    margin-right: 5px
+
+  // .form-block__title-line
+  &__title-line
+    width: 80px
+    height: 3px
+    background-color: $light
+  // .form-block__form
+  &__form
+    padding: 50px 75px
+    display: flex
+    flex-flow: column
+    align-items: center
+  // .form-block__input
+  &__input
+    padding: 24px 0
+    width: 100%
+    background-color: $firm
+    border: 1px solid $grey
+    margin-bottom: 12px
+    color: $grey
+    text-align: center
+    font-weight: 300
+    font-size: 18px
+    line-height: 27px
+    &::placeholder
+      font-weight: 300
+      font-size: 18px
+      line-height: 27px
+      color: $grey
+      text-align: center
+
+  // .form-block__send-btn
+  &__send-btn
+    display: inline-block
+    margin-top: 66px
+    font-weight: 300
+    font-size: 14px
+    line-height: 21px
+    padding: 12px 72px
+    color: $light
+    background-color: $accent
+    transition: all 500ms ease
+    &:hover
+      color: $accent
+      background-color: $light
+      transition: all 500ms ease
+
